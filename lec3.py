@@ -44,3 +44,25 @@ print(my_list)
 print('a' in my_list)
 
 print(len(my_list))
+
+print('hello\tworld')
+
+print('hello\nworld')
+
+print(len('hello world'))
+
+print('hello world'[2])
+
+my_letters = ['a', 'a', 'b', 'b', 'c']
+print(my_letters)
+
+print(set(my_letters))
+
+my_unique_letters = set (my_letters)
+print(my_unique_letters)
+
+print(len(my_unique_letters))
+
+print('d' in my_unique_letters)
+
+print(list(my_unique_letters)[0])
