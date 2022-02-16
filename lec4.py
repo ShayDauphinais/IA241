@@ -19,7 +19,6 @@ print(my_tuple[1:])
 print(my_tuple[:3])
 print(my_tuple[:])
 
-
 my_car = {
             'color':'red',
             'maker':'toyota',
@@ -40,4 +39,3 @@ my_car['year']=2020
 print(my_car)
 print(len(my_car))
 print('color' in my_car)
-
