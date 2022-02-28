@@ -42,9 +42,35 @@ print(not False)
 
 print(not None)
 print(not '0')
-
+'''
 print(() and [])
 print([] and ())
 
 print (-1 or 0)
 print(0 or -1)
+'''
+if 2>1:
+        print('2>1')
+        if 3>1:
+                print('3>1')
+                
+        if 2<1:
+                print('2<1')
+print('not in the if block')
+
+if 2<1:
+        print('2<1')
+else:
+        print('2>1')
+
+if 2<=2:
+        print('2<=2')
+else:
+        print('2>2')
+        
+if 2<1:
+        print('2<1')
+elif 2<=2:
+        print('2<=2')
+else:
+        print('2>1')
