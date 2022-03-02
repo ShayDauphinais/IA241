@@ -51,3 +51,9 @@ my_tweet = {
     "entities": {"hashtags":["Preds", "Pens", "SingIntoSpring"]}
     }
 print(my_tweet['entities']['hashtags'])
+
+result = 0
+
+for hashtag in my_tweet['entities']['hashtags']:
+    result = result +1
+print(result)
